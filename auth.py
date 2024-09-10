@@ -3,7 +3,6 @@ from requests import post
 from dotenv import load_dotenv
 
 redirect:str = "http://localhost:5432/usercode"
-code = "AQBVl397eTpk16MySMmFZ70YU8pFijcacgcpVheMG48hqFmRadhDzdx1Z_uBPdmJj4Q9iAtpYb2JziBkj_mP_ePH4gqYHr2gtUhXAJvAGROtiq6GJOIFCKEF7iRDm9BDRSHudTim62qvEQaA4kqVCO5auKonfr0qDQEOhLVJkkaBg-K9u9BTXEAsrnFdBFtNwUvq19Yx72n0h2PyzQ"
 
 def encode_auth(id:str, secret:str) -> str:
     auth_string:str = id+ ":" + secret

@@ -1,7 +1,6 @@
 import os, secrets, time, ast
 
 keys:list = []
-#data:dict = {'someid': {'token': '123', 'code': '123'}}
 
 def generate_keys() -> list:
     for i in range(17):
